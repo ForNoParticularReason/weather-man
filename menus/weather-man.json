@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle weather-man",
+        "command": "weather-man:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "weather-man",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "weather-man:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
